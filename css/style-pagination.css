@@ -1,0 +1,51 @@
+body {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+h2 {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.pagination {
+  display: inline-block;
+  padding: 10px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+  border: 1px solid dodgerblue;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.images-block {
+  width: 40%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.images-block img {
+  margin: 5px;
+  width: 30%;
+  height: 30%;
+}
+
+.msg {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: orange;
+}

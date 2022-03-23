@@ -1,0 +1,10 @@
+body {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.folder {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
