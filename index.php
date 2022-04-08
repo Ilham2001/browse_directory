@@ -36,7 +36,7 @@
 
 				// Si l'entrée est un dossier
 				if (is_dir($path . "/" . $entree)) {
-					echo '<div class="folder"><b>DOSSIER : ' . $entree . '</b></div>';
+					echo '<div class="folder"> &nbsp; &nbsp ++<b>DOSSIER : ' . $entree . '</b></div>';
 
 					// Récupérer le chemin du dossier courant
 					$sav_path = $path;
@@ -52,7 +52,7 @@
 				}
 				// Si l'entrée est un fichier
 				else {
-					echo '<li> <b>FICHIER : </b>' . $entree . '</li>';
+					echo '<li> &nbsp; &nbsp;<b>FICHIER : </b>' . $entree . '</li>';
 					// Récupérer le chemin complet du fichier courant
 					$path_source = $path . "/" . $entree;
 
